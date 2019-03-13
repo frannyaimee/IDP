@@ -1,0 +1,14 @@
+/* The image used */
+  body {
+  	background-image: url("images/pipes.jpeg");
+  	
+
+  /* Set a specific height */
+  height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
