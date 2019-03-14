@@ -93,13 +93,13 @@ button.cta a {
     font-size: 1rem;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     #services .cards {
         grid-template-columns: 1fr;
     }
 }
 
-@media only screen and (min-width: 799px) {
+@media only screen and (min-width: 768px) {
     #services .cards {
         grid-template-columns: repeat(3, 1fr);
     }
