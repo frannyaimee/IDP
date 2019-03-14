@@ -1,0 +1,68 @@
+#projects .parallax {
+    /* The image used */
+    background-image: url("images/IDP.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#projects .content {
+    height: 960px;
+    background-color: rgba(225, 225, 225, 0.65);
+    font-size: 36px;
+}
+
+.smallpic1 {
+    width: 100%;
+}
+
+.thumb {
+    width: 150px;
+    height: auto;
+}
+
+.container {
+    position: relative;
+    height: 720px;
+    width: 960px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.pictures a {
+    float: left;
+    margin: 20px;
+}
+
+.big {
+    position: absolute;
+    top: 900px;
+    left: 20px;
+    -webkit-transition: top 1s ease;
+    -moz-transition: top 1s ease;
+    -o-transition: top 1s ease;
+    -ms-transition: top 1s ease;
+    transition: top 1s ease;
+}
+
+.featured {
+    top: 260px;
+    left: 20px;
+    z-index: -3;
+    height: auto;
+}
+
+
+a:hover .thumb {
+  -webkit-box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+}
+ 
+a:hover .big {
+  top: 260px;
+}
+
