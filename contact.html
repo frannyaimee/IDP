@@ -2,20 +2,77 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="contact.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
 	<title>IDP Contact</title>
 </head>
 <body>
 	<div id="contact">
-		<p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
+	
+    	<div class="parallax">
+      		&nbsp;
+    	</div>
+    	<div class="content">
+      		<div class="forum">
+				<div class="inside">
+					<div class="contact">
+						<h2>Contact</h2>
+						<label class="name">Voornaam: 
+							<input type="text" name="firstName" class="search" >
+						</label>
+						<br />
+						<label class="name">Naam:
+							<input type="text" name="lastName" class="search" >
+						</label>
+						<br />
+						<label class="name">E-mail: 
+							<input type="E-mail" class="search" name="email" >
+						</label> <br/>
+						<p class="redenc">Reden Voor Contact:
+			          		<br/>
+					          	<label id="rspace" class="reason"><input type="checkbox" class="checkbox" value="need plumber"/>Need Plumber</label>
+					            <label class="reason"><input type="checkbox" class="checkbox" value="Inquiring about rates"/>Inquiring about rates</label>
+					            <label class="reason"><input type="checkbox" class="checkbox" value="Need more information"/>Need More information</label>
+					            <label class="reason"><input type="checkbox" class="checkbox" value="other specified below"/>Other</label>
+				        </p>
+			          	<br />
+			          	<textarea name="message" cols="35" rows="5" placeholder="Beschrijf kort welke dienst u zou willen bespreken"></textarea>
+			          	<br/>
+			          	<div class="button">
+			          		<input class="button" type="Submit" name="Submit" value="Send" >
+			          	</div>
+		          	</div>
+				</div>
+				<div class="map">
+					
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2513.572491787247!2d3.130285315661366!3d50.95011877954743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c335e06fcef303%3A0xa33e2ec4b5a9dea7!2sMariastraat+14%2C+8800+Roeselare!5e0!3m2!1sen!2sbe!4v1552474901511" width="600" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
 
-		<div class="parallax"></div>
-
-		<div style="height:500px;background-color:red;font-size:36px">
-			Scroll Up and Down this page to see the parallax scrolling effect.
-			This div is just here to enable scrolling.
-			Tip: Try to remove the background-attachment property to remove the scrolling effect.
-		</div>
+    		</div>	
+    		<fieldset>
+    		
+    			<legend>Algemene Informatie</legend>
+    			<div class="gtable">
+	    			<table class="text">
+						<tr>
+					    	<th><i class="fas fa-phone"></i></th>
+					    	<td class="info">0494109410</td>
+					  	</tr>
+					  	<tr>
+					    	<th><i class="fas fa-envelope"></i></th>
+					    	<td class="info">info@installatiesdepoortere.be</td>
+					  	</tr>
+					  	<tr>
+						    <th><i class="fas fa-location-arrow"></i></th>
+						    <td class="info">Mariastraat 14, 8800 Roeselare</td>
+					  	</tr>
+					</table>
+	    		</div>
+    		</fieldset>
+    	</div>
+    	<div class="parallax">
+      		&nbsp;
+    	</div>
 	</div>
 </body>
 </html>
