@@ -11,7 +11,96 @@
 }
 
 #services .content {
-    height: 1000px;
-    background-color: rgba(225, 225, 225, 0.65);
-    font-size: 36px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 1rem 2rem;
+}
+
+#services .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+#services .card {
+    /*verdoriehoezatdatnuweer*/
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+    border: #ED0000 1px solid;
+}
+
+.cardheader {
+    background-size: cover;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 0 .5em 0;
+    height: 5rem;
+    position: relative;
+}
+
+.cardheader h3 {
+    color: #ED0000;
+    margin: 0;
+    padding: 1rem;
+    bottom: 0;
+    position: absolute;
+}
+
+#verwarming .cardheader {
+    background-image: url(images/verwarming.jpg);
+}
+
+#sanitair .cardheader {
+    background-image: url(images/sanitair.jpg);
+}
+
+#begeleiding .cardheader {
+    background-image: url(images/begeleiding.jpg);
+}
+
+.cardbody, .cardfooter {
+    margin: 1rem;
+}
+
+button.cta {
+    color: white;
+    border: 2px solid white;
+    background-color: #ed0000;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    width: fit-content;
+    width: -moz-fit-content;
+    box-shadow: #333 8px 8px 15px;
+}
+
+button.cta:hover {
+    background-color: rgb(237, 0, 0, 0.95);
+    box-shadow: #333 4px 4px 9px;
+}
+
+button.cta a {
+    color: white;
+    text-shadow: black 1px 1px 1px;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+    #services .cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width: 799px) {
+    #services .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
