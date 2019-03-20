@@ -1,0 +1,17 @@
+#home .parallax {
+    /* The image used */
+    background-image: url("images/services.jpeg");
+    /* Set a specific height */
+    min-height: 200px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home .content {
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 1rem 2rem;
+}
