@@ -26,22 +26,26 @@
 }
 
 #services .card {
-    /*verdoriehoezatdatnuweer*/
-    border-radius: 2%;
-    -webkit-border-radius: 2%;
-    -moz-border-radius: 2%;
-    -ms-border-radius: 2%;
-    -o-border-radius: 2%;
-    border: #ED0000 1px solid;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: #ED0000 2px solid;
     display: flex;
     flex-direction: column;
     justify-items: right;
 }
 
 .cardheader {
+    border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+    border: none;
     background-size: cover;
-    background-clip: border-box;
-    background-repeat: no-repeat;
+    backgroundbackground-repeat: no-repeat;
     background-position: center;
     margin: 0 0 .5em 0;
     height: 5rem;
