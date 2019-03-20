@@ -47,6 +47,7 @@
 
 .cardheader h3 {
     color: #ED0000;
+    text-shadow: white 2px 2px 10px;
     margin: 0;
     padding: 1rem;
     bottom: 0;
@@ -54,15 +55,15 @@
 }
 
 #verwarming .cardheader {
-    background-image: url(images/verwarming.jpg);
+    background-image: url(images/verwarming_card.jpg);
 }
 
 #sanitair .cardheader {
-    background-image: url(images/sanitair.jpg);
+    background-image: url(images/sanitair_card.jpg);
 }
 
 #begeleiding .cardheader {
-    background-image: url(images/begeleiding.jpg);
+    background-image: url(images/begeleiding_card.jpg);
 }
 
 .cardbody, .cardfooter {
