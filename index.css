@@ -9,7 +9,7 @@ body {
 
 #home .parallax {
     /* The image used */
-    background-image: url("images/services.jpeg");
+    background-image: url("images/begeleiding_card.jpg");
     /* Set a specific height */
     min-height: 200px;
     /* Create the parallax scrolling effect */
@@ -29,7 +29,7 @@ body {
 
 #services .parallax {
     /* The image used */
-    background-image: url("images/services.jpeg");
+    background-image: url("images/begeleiding_card.jpg");
     /* Set a specific height */
     min-height: 200px;
     /* Create the parallax scrolling effect */
@@ -203,7 +203,7 @@ ul.slides input {
 .carousel-controls label {
     display: none;
     position: absolute;
-    top: 50%;
+    top:;
     padding: 0 20px;
     opacity: 0;
     transition: opacity .2s;
@@ -275,7 +275,7 @@ body {
 
 #projects .parallax {
     /* The image used */
-    background-image: url("images/projecten.jpg");
+    background-image: url("images/sanitair.jpg");
     /* Set a specific height */
     min-height: 200px;
     /* Create the parallax scrolling effect */
@@ -296,7 +296,7 @@ body {
 
 #contact .parallax {
     /* The image used */
-    background-image: url("images/pipes.jpeg");
+    background-image: url("images/vloer.jpg");
     /* Set a specific height */
     min-height: 200px;
     /* Create the parallax scrolling effect */
@@ -340,6 +340,7 @@ body {
 
 .map {
     grid-column: 1 / -1;
+    margin-top: 2%;
 }
 
 /*Gray filter on map*/
