@@ -31,7 +31,7 @@ body {
     /* The image used */
     background-image: url("images/services.jpeg");
     /* Set a specific height */
-    min-height: 500px;
+    min-height: 200px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -287,7 +287,7 @@ body {
     /* The image used */
     background-image: url("images/projecten.jpg");
     /* Set a specific height */
-    min-height: 500px;
+    min-height: 200px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -308,7 +308,7 @@ body {
     /* The image used */
     background-image: url("images/pipes.jpeg");
     /* Set a specific height */
-    min-height: 500px;
+    min-height: 200px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -369,6 +369,9 @@ body {
 fieldset {
     text-align: center;
     height: 100%;
+    font-family: Avenir;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
 }
 
 legend {
@@ -379,17 +382,7 @@ legend {
 
 /*Input Styling- making it prettier*/
 
-html, body {
-    height: 100%;
-}
-
-body {
-    font-family: Avenir;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
-}
-
-* {
+#contact * {
     box-sizing: border-box;
 }
 
