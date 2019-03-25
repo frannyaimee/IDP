@@ -5,13 +5,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* ------------------- HOME SECTION ------------------- */
-
-#home .parallax {
-    /* The image used */
-    background-image: url("images/begeleiding_card.jpg");
-    /* Set a specific height */
-    min-height: 200px;
+.parallax {
+    /* The image used is specified on each section individually */
+    min-height: 300px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -19,13 +15,23 @@ body {
     background-size: cover;
 }
 
-#home .content {
+.content {
     height: auto;
-    background-color: rgba(255, 255, 255, 0.25);
     padding: 1rem 2rem;
 }
 #home img {
     margin: auto;
+}
+
+/* ------------------- HOME SECTION ------------------- */
+
+#home .parallax {
+    /* The image used */
+    background-image: url("images/begeleiding_card.jpg");
+}
+
+#home .content {
+    background-color: rgba(255, 255, 255, 0.25);
 }
 
 /* ------------------- SERVICES SECTION ------------------- */
@@ -33,19 +39,10 @@ body {
 #services .parallax {
     /* The image used */
     background-image: url("images/begeleiding_card.jpg");
-    /* Set a specific height */
-    min-height: 200px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 #services .content {
-    height: auto;
     background-color: rgba(255, 255, 255, 0.25);
-    padding: 1rem 2rem;
 }
 
 #services .cards {
@@ -142,6 +139,15 @@ button.cta a {
 }
 
 /* ------------------- PROJECTS SECTION ------------------- */
+
+#projects .parallax {
+    /* The image used */
+    background-image: url("images/sanitair.jpg");
+}
+
+#projects .content {
+    background-color: rgba(255, 255, 255, 0.25);
+}
 
 .carousel {
     margin-left: 15%;
@@ -281,54 +287,21 @@ input:checked+.slide-container .nav label {
     display: block;
 }
 
-/* projecten parallax */
-
-body {
-    margin: 0;
-}
-
-#projects .parallax {
-    /* The image used */
-    background-image: url("images/sanitair.jpg");
-    /* Set a specific height */
-    min-height: 200px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#projects .content {
-    /* set height to auto when you have actual content */
-    height: auto;
-    background-color: rgba(255, 255, 255, 0.25);
-    padding: 1rem 2rem;
-}
-
 /* ------------------- CONTACT SECTION ------------------- */
 
 #contact .parallax {
     /* The image used */
     background-image: url("images/vloer.jpg");
-    /* Set a specific height */
-    min-height: 200px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 #contact .content {
-    height: 1100px;
     background-color: rgba(225, 225, 225, 0.65);
-    font-size: 28px;
 }
 
 /*Input styling*/
 
 .forum {
+    font-size: 28px;
     align-content: center;
     margin: auto;
     padding: 3%;
