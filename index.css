@@ -19,8 +19,8 @@ body {
     height: auto;
     padding: 1rem 2rem;
 }
-#home img {
-    margin: auto;
+.centerimg {
+    text-align: center;
 }
 
 /* ------------------- HOME SECTION ------------------- */
