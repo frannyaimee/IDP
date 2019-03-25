@@ -35,11 +35,11 @@ body {
 
 #services .parallax {
     /* The image used */
-    background-image: url("images/services.jpeg");
+    background-image: url("images/begeleiding_card.jpg");
 }
 
 #services .content {
-    /* background-color: rgba(255, 255, 255, 0.25); */
+    background-color: rgba(255, 255, 255, 0.25);
 }
 
 #services .cards {
@@ -293,12 +293,12 @@ input:checked+.slide-container .nav label {
 
 #contact .content {
     background-color: rgba(225, 225, 225, 0.65);
-    font-size: 28px;
 }
 
 /*Input styling*/
 
 .forum {
+    font-size: 28px;
     align-content: center;
     margin: auto;
     padding: 3%;
