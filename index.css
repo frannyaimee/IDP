@@ -3,6 +3,7 @@
 body {
     margin: 0;
     font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0.25);
 }
 h2 {
     color: #ED0000;
@@ -39,10 +40,6 @@ p.lead:last-of-type{
     background-image: url("images/begeleiding_card.jpg");
 }
 
-#home .content {
-    background-color: rgba(255, 255, 255, 0.25);
-}
-
 #logo {
     max-width: 100%;
 }
@@ -52,10 +49,6 @@ p.lead:last-of-type{
 #services .parallax {
     /* The image used */
     background-image: url("images/begeleiding_card.jpg");
-}
-
-#services .content {
-    background-color: rgba(255, 255, 255, 0.25);
 }
 
 #services .cards {
@@ -160,10 +153,6 @@ button.cta a {
 #projects .parallax {
     /* The image used */
     background-image: url("images/sanitair.jpg");
-}
-
-#projects .content {
-    background-color: rgba(255, 255, 255, 0.25);
 }
 
 .carousel {
@@ -309,10 +298,6 @@ input:checked+.slide-container .nav label {
 #contact .parallax {
     /* The image used */
     background-image: url("images/sanitair.jpg");
-}
-
-#contact .content {
-    background-color: rgba(225, 225, 225, 0.65);
 }
 
 /*Input styling*/
