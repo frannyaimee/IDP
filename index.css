@@ -24,6 +24,9 @@ body {
     background-color: rgba(255, 255, 255, 0.25);
     padding: 1rem 2rem;
 }
+#home img {
+    margin: auto;
+}
 
 /* ------------------- SERVICES SECTION ------------------- */
 
