@@ -22,3 +22,6 @@ Status: In-Progress
 ## Installation:
 
 No installation needed, we will be using Sublime Text and Visual Studio Code as our text editors. All code is written in HTML and CSS. 
+
+## URL of Published Site:
+https://frannyaimee.github.io/IDP/
