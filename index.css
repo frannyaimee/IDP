@@ -27,10 +27,10 @@ h2 {
 .centerimg {
     text-align: center;
 }
+
 p.lead:last-of-type{
     padding-bottom: 1.5%;
 }
-
 
 /* ------------------- HOME SECTION ------------------- */
 
@@ -41,6 +41,10 @@ p.lead:last-of-type{
 
 #home .content {
     background-color: rgba(255, 255, 255, 0.25);
+}
+
+#logo {
+    max-width: 100%;
 }
 
 /* ------------------- SERVICES SECTION ------------------- */
@@ -314,7 +318,6 @@ input:checked+.slide-container .nav label {
 /*Input styling*/
 
 .forum {
-    font-size: 28px;
     align-content: center;
     margin: auto;
     padding: 3%;
@@ -373,6 +376,7 @@ legend {
     text-align: center;
     padding-left: 3%;
     padding-right: 3%;
+    font-size: 1.5em;
 }
 
 /*Input Styling- making it prettier*/
@@ -471,6 +475,9 @@ label.inp {
 /*Media Queries*/
 
 @media only screen and (max-width: 768px) {
+    body {
+        font-size: 0.8em;
+    }
     #services .cards {
         grid-template-columns: 1fr;
     }
@@ -486,7 +493,7 @@ label.inp {
     }
     .lead {
     margin: 1rem 5%;
-}
+    }
 }
 
 @media only screen and (min-width: 768px) {
