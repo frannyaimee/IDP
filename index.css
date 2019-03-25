@@ -18,9 +18,15 @@ body {
 .content {
     height: auto;
     padding: 1rem 2rem;
+    text-align: center;
 }
+
 .centerimg {
     text-align: center;
+}
+
+.lead {
+    margin: 1rem 30%;
 }
 
 /* ------------------- HOME SECTION ------------------- */
@@ -48,7 +54,7 @@ body {
 #services .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1rem;
+    grid-gap: 2rem;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: center;
@@ -103,15 +109,18 @@ body {
 }
 
 .cardbody, .cardfooter {
-    margin: 1rem;
+    margin: 1rem 0;
 }
 
 .cardbody {
     flex-grow: 10;
+    margin: 10%;
 }
 
 .cardfooter {
     align-self: flex-start;
+    text-align: center;
+    width: 100%;
 }
 
 button.cta {
@@ -291,7 +300,7 @@ input:checked+.slide-container .nav label {
 
 #contact .parallax {
     /* The image used */
-    background-image: url("images/vloer.jpg");
+    background-image: url("images/sanitair.jpg");
 }
 
 #contact .content {
