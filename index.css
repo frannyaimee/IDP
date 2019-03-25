@@ -328,6 +328,11 @@ i.fas {
     color: #ED0000;
 }
 
+a#tel {
+    text-decoration: none;
+    color: inherit;
+}
+
 /*Map Styling*/
 
 .map {
