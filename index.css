@@ -2,7 +2,10 @@
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+}
+h2 {
+    color: #ED0000;
 }
 
 .parallax {
@@ -24,10 +27,10 @@ body {
 .centerimg {
     text-align: center;
 }
-
-.lead {
-    margin: 1rem 30%;
+p.lead:last-of-type{
+    padding-bottom: 1.5%;
 }
+
 
 /* ------------------- HOME SECTION ------------------- */
 
@@ -114,13 +117,14 @@ body {
 
 .cardbody {
     flex-grow: 10;
-    margin: 10%;
+    margin: 1rem 10%;
 }
 
 .cardfooter {
     align-self: flex-start;
     text-align: center;
     width: 100%;
+    padding-bottom: 1rem;
 }
 
 button.cta {
@@ -314,7 +318,7 @@ input:checked+.slide-container .nav label {
     align-content: center;
     margin: auto;
     padding: 3%;
-    padding-top: 5%;
+    padding-top: 1%;
     display: grid;
     grid-auto-columns: minmax(50%, 1fr);
     grid-template-rows: 1fr 1fr;
@@ -330,6 +334,10 @@ input:checked+.slide-container .nav label {
     word-wrap: break-word;
     font-size: 20px;
     height: 100%;
+}
+
+i.fas {
+    color: #ED0000;
 }
 
 /*Map Styling*/
@@ -385,7 +393,7 @@ legend {
     top: 20px;
     left: 0;
     font-size: 19px;
-    color: #9098a9;
+    color: #ED0000;
     font-weight: 500;
     transform-origin: 0 0;
     transition: all 0.2s ease;
@@ -440,7 +448,7 @@ span.label {
 }
 
 .inp input:focus+span {
-    color: #07f;
+    color: #ED0000;
     transform: translateY(-26px) scale(0.75);
 }
 
@@ -476,6 +484,9 @@ label.inp {
     .carousel-dots {
         display: none;
     }
+    .lead {
+    margin: 1rem 5%;
+}
 }
 
 @media only screen and (min-width: 768px) {
@@ -485,4 +496,7 @@ label.inp {
     .forum {
         grid-template-columns: repeat(2, 1fr);
     }
+    .lead {
+    margin: 1rem 30%;
+}
 }
